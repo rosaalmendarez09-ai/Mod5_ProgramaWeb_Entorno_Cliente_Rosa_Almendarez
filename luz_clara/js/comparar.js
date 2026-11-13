@@ -7,4 +7,5 @@ console.log(precio !== 38000); //true
 const hayFecha = true;
 const pagado = false;
 console.log(hayFecha && pagado); //false
+console.log(hayFecha || pagado); //true
 console.log(!pagado); //true
