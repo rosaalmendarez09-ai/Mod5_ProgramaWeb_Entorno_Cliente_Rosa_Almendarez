@@ -2,7 +2,7 @@
 
 <h1>📘 Portafolio de Evidencias</h1>
 
-<h3>Nombre Apellido1 Apellido2</h3>
+<h3>Rosa Almendarez Bárcenas</h3>
 
 <strong>CSTI12004 · Programación web en el entorno cliente</strong> · Instituto Nacional de Aprendizaje
 Programa CSTI14001 Desarrollo de páginas web · Facilitador: Giovanni Antonio Coto Calderón · 2026-2027
@@ -497,25 +497,25 @@ CÓMO USAR ESTE BLOQUE (Clase 04)
 
 | #   | Expresión        | Mi predicción | Lo que mostró la consola |
 | --- | ---------------- | ------------- | ------------------------ |
-| 1   | `typeof "95000"` |               |                          |
-| 2   | `typeof 95000`   |               |                          |
-| 3   | `typeof 9.5`     |               |                          |
-| 4   | `typeof "true"`  |               |                          |
-| 5   | `"5" + 2`        |               |                          |
-| 6   | `"5" - 2`        |               |                          |
-| 7   | `5 === "5"`      |               |                          |
-| 8   | `10 % 3`         |               |                          |
-| 9   | `true && false`  |               |                          |
-| 10  | `!(3 > 2)`       |               |                          |
+| 1   | `typeof "95000"` | string        | string                   |
+| 2   | `typeof 95000`   | Number        | Number                   |
+| 3   | `typeof 9.5`     | Number        | Number                   |
+| 4   | `typeof "true"`  | bolean        | ** string **             |
+| 5   | `"5" + 2`        | 52            | 52                       |
+| 6   | `"5" - 2`        | 3             | 3                        |
+| 7   | `5 === "5"`      | false         | false                    |
+| 8   | `10 % 3`         | 1             | 1                        |
+| 9   | `true && false`  | false         | false                    |
+| 10  | `!(3 > 2)`       | false         | false                    |
 
 **Autoevaluación**
 
 | Indicador                                                 | Sí  | Aún no |
 | --------------------------------------------------------- | --- | ------ |
-| Uso const si el valor no cambia y let si cambia.          |     |        |
-| Reconozco cadenas, números, booleanos y null.             |     |        |
-| Calculo con operadores en lugar de escribir el resultado. |     |        |
-| Sé que prompt devuelve texto y lo convierto con Number.   |     |        |
+| Uso const si el valor no cambia y let si cambia.          | x   |        |
+| Reconozco cadenas, números, booleanos y null.             | x   |        |
+| Calculo con operadores en lugar de escribir el resultado. | x   |        |
+| Sé que prompt devuelve texto y lo convierto con Number.   | x   |        |
 
 </details>
 
