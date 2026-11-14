@@ -73,30 +73,30 @@ Mod5_PrograWeb_EntornoCliente-Nombre/
         <tr>
             <td align="center">S01</td>
             <td>Bienvenida, encuadre y diagnóstico</td>
-            <td align="left">(Completar al terminar la sesión)</td>
+            <td align="left">Aprendi sobre el tipado de JavaScript, que se ejecuta en el navegador y que se utiliza para la creacion de aplicaciones.</td>
             <td align="center"><a href="UA1/S01/" target="_blank" rel="noopener">Ver</a></td>
-            <td align="center"><a href="UA1/S01/capturas/" target="_blank" rel="noopener">Ver</a></td>
+            <td align="center"><a href="UA1/S01/capturas/Temas_UA1.png" target="_blank" rel="noopener">Ver</a></td>
         </tr>
         <tr>
             <td align="center">S02</td>
             <td>Entorno de trabajo, MVC y JavaScript</td>
-            <td align="left">(Completar al terminar la sesión)</td>
-            <td align="center"><a href="UA1/S02/" target="_blank" rel="noopener">Ver</a></td>
-            <td align="center"><a href="UA1/S02/capturas/" target="_blank" rel="noopener">Ver</a></td>
+            <td align="left">Aprendí como instalar y preparar el entorno de trabajo de JavaScript, MVC, y detectar errores que se muestran en consola</td>
+            <td align="center"><a href="UA1/S02/Prueba_Entorno/app.js" target="_blank" rel="noopener">Ver</a></td>
+            <td align="center"><a href="UA1/S02/capturas/Pueba_Entorno.png" target="_blank" rel="noopener">Ver</a></td>
         </tr>
         <tr>
             <td align="center">S03</td>
             <td>Entorno en el laboratorio y mi primer script</td>
-            <td align="left">(Completar al terminar la sesión)</td>
-            <td align="center"><a href="UA1/S03/" target="_blank" rel="noopener">Ver</a></td>
-            <td align="center"><a href="UA1/S03/capturas/" target="_blank" rel="noopener">Ver</a></td>
+            <td align="left">Aprendí como reconocer MVC y enlazar JavaScript a mis documentos .html y uso de defer</td>
+            <td align="center"><a href="Casa_Tomillo/js/talleres.js" target="_blank" rel="noopener">Ver</a></td>
+            <td align="center"><a href="UA1/S03/capturas/S03Talleres.png" target="_blank" rel="noopener">Ver</a></td>
         </tr>
         <tr>
             <td align="center">S04</td>
             <td>Variables, constantes, tipos y operadores</td>
-            <td align="left">(Completar al terminar la sesión)</td>
-            <td align="center"><a href="UA1/S04/" target="_blank" rel="noopener">Ver</a></td>
-            <td align="center"><a href="UA1/S04/capturas/" target="_blank" rel="noopener">Ver</a></td>
+            <td align="left">Aprendi el uso de const, let, tipos y transformar una lectura de prompt a Number.</td>
+            <td align="center"><a href="UA1/S04/presupuesto/js/presupuesto.js" target="_blank" rel="noopener">Ver</a></td>
+            <td align="center"><a href="UA1/S04/capturas/S04_autonoma_presupuesto.png" target="_blank" rel="noopener">Ver</a></td>
         </tr>
         <tr>
             <td align="center">S05</td>
