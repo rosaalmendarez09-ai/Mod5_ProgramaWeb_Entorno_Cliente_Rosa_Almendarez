@@ -420,14 +420,14 @@ La diferencia más importante que encontré entre C y JavaScript: C es un lengua
 
 Archivo: [pruebas/js/pruebas.js](UA1/S02/Prueba_Entorno/js/app.js)
 
-| Línea | Qué mostró la consola | Tipo | Corrección |
-| ----- | --------------------- | ---- | ---------- |
-| 2     |                       |      |            |
-| 3     |                       |      |            |
-| 4     |                       |      |            |
-| 5     |                       |      |            |
-| 6     |                       |      |            |
-| 7     |                       |      |            |
+| Línea | Qué mostró la consola                        | Tipo      | Corrección                          |
+| ----- | -------------------------------------------- | --------- | ----------------------------------- |
+| 2     | Promedio: 80                                 | Correcta  | ...                                 |
+| 3     | ✖ Uncaught SyntaxError: Unexpected token ')' | Sintáxis  | Eliminar paréntesis extra           |
+| 4     | Total: 1500900                               | Semántica | "Total: " + (1500+900);             |
+| 5     | Bienvenida al "INA"                          | Correcta  | ...                                 |
+| 6     | Perímetro de 4 x 3: 10                       | Semántica | (4+3)\*2                            |
+| 7     | SyntaxError: missing ) after argument list   | Sintáxis  | console.log('Bienvenida al "INA"'); |
 
 **Autoevaluación**
 
