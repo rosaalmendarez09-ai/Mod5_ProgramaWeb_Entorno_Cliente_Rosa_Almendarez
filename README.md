@@ -512,26 +512,26 @@ Archivos: [horario/js/horarios.js](UA1/S03/horario/js/horarios.js) · [luz-clara
 
 | #   | Expresión                         | Mi predicción | Lo que mostró la consola |
 | --- | --------------------------------- | ------------- | ------------------------ |
-| 1   | `Math.round(2.5)`                 |               |                          |
-| 2   | `Math.floor(9.99)`                |               |                          |
-| 3   | `"Luz".length`                    |               |                          |
-| 4   | `"casa".toUpperCase()`            |               |                          |
-| 5   | `parseInt("12.9 horas")`          |               |                          |
-| 6   | `Number("doce")`                  |               |                          |
-| 7   | `(3.14159).toFixed(2)`            |               |                          |
-| 8   | `typeof (10).toString()`          |               |                          |
-| 9   | `new Date(2026, 0, 1).getMonth()` |               |                          |
-| 10  | <code>`2 + 3 = ${2 + 3}`</code>   |               |                          |
+| 1   | `Math.round(2.5)`                 | 3             | 3                        |
+| 2   | `Math.floor(9.99)`                | 9             | 9                        |
+| 3   | `"Luz".length`                    | 3             | 3                        |
+| 4   | `"casa".toUpperCase()`            | CASA          | CASA                     |
+| 5   | `parseInt("12.9 horas")`          | 12            | 12                       |
+| 6   | `Number("doce")`                  | NaN           | NaN                      |
+| 7   | `(3.14159).toFixed(2)`            | 3.14          | 3.14 \*\*                |
+| 8   | `typeof (10).toString()`          | string        | string                   |
+| 9   | `new Date(2026, 0, 1).getMonth()` | Enero         | 0                        |
+| 10  | <code>`2 + 3 = ${2 + 3}`</code>   | 2 + 3 = 5     | 2 + 3 = 5                |
 
 **Autoevaluación**
 
 | Indicador                                               | Sí  | Aún no |
 | ------------------------------------------------------- | --- | ------ |
-| Uso métodos de Math (round, floor, ceil).               |     |        |
-| Limpio y transformo textos (trim, toUpperCase, length). |     |        |
-| Creo fechas recordando que los meses empiezan en 0.     |     |        |
-| Muestro montos en colones con Intl.                     |     |        |
-| Elijo entre Number, parseInt y parseFloat.              |     |        |
+| Uso métodos de Math (round, floor, ceil).               | ✅  |        |
+| Limpio y transformo textos (trim, toUpperCase, length). | ✅  |        |
+| Creo fechas recordando que los meses empiezan en 0.     | ✅  |        |
+| Muestro montos en colones con Intl.                     | ✅  |        |
+| Elijo entre Number, parseInt y parseFloat.              | ✅  |        |
 
 </details>
 
