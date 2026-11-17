@@ -103,7 +103,7 @@ Mod5_PrograWeb_EntornoCliente-Nombre/
             <td>Números, textos, fechas y conversión de datos</td>
             <td align="left">(Completar al terminar la sesión)</td>
             <td align="center"><a href="UA1/S05/" target="_blank" rel="noopener">Ver</a></td>
-            <td align="center"><a href="UA1/S05/capturas/" target="_blank" rel="noopener">Ver</a></td>
+            <td align="center"><a href="UA1/S05/capturas/S05_autonoma_casa-tomillo.png" target="_blank" rel="noopener">Ver</a></td>
         </tr>
         <tr>
             <td align="center">S06</td>
@@ -407,18 +407,18 @@ Mod5_PrograWeb_EntornoCliente-Nombre/
 <details>
 <summary>▼<b>Clase 01 · 10/11/2026 · Bienvenida, encuadre y diagnóstico</b></summary>
 
-Archivo: [S01_Cuadro_comparativo_Nombre_Apellido.docx](UA1/S01/S01_Cuadro_comparativo_Nombre_Apellido.docx) (tarea para la clase 2).
+Archivo: [S01_Cuadro_comparativo_Rosa_Almendarez.docx](UA1/S01/S01_Cuadro_comparativo_Rosa_Almendarez.docx) (tarea para la clase 2).
 
 **Conclusión**
 
-La diferencia más importante que encontré entre C y JavaScript:
+La diferencia más importante que encontré entre C y JavaScript: C es un lenguaje de bajo nivel, estructurado e imperfativo, su gestión de memoria es manual; mientras que JavaScript es un lenguaje de alto nivel, multiparadigma y su gestion de memoria es automatica(tiene un recolector de basura).
 
 </details>
 
 <details>
 <summary>▼<b>Clase 02 · 11/11/2026 · ¿Sintaxis o semántica?</b></summary>
 
-Archivo: [pruebas/js/pruebas.js](UA1/S02/pruebas/js/pruebas.js)
+Archivo: [pruebas/js/pruebas.js](UA1/S02/Prueba_Entorno/js/app.js)
 
 | Línea | Qué mostró la consola | Tipo | Corrección |
 | ----- | --------------------- | ---- | ---------- |
@@ -433,10 +433,10 @@ Archivo: [pruebas/js/pruebas.js](UA1/S02/pruebas/js/pruebas.js)
 
 | Indicador                                                                                      | Sí  | Aún no |
 | ---------------------------------------------------------------------------------------------- | --- | ------ |
-| Copié Luz Clara en `luz-clara/` y Casa Tomillo en `casa-tomillo/`, y los abro con Live Server. |     |        |
-| Mi repositorio está en GitHub con el README.                                                   |     |        |
-| Distingo un error de sintaxis de uno de semántica.                                             |     |        |
-| Uso `//` para aislar un error y seguir probando.                                               |     |        |
+| Copié Luz Clara en `luz-clara/` y Casa Tomillo en `casa-tomillo/`, y los abro con Live Server. | ✅  |        |
+| Mi repositorio está en GitHub con el README.                                                   | ✅  |        |
+| Distingo un error de sintaxis de uno de semántica.                                             | ✅  |        |
+| Uso `//` para aislar un error y seguir probando.                                               | ✅  |        |
 
 </details>
 
@@ -476,20 +476,6 @@ Archivos: [horario/js/horarios.js](UA1/S03/horario/js/horarios.js) · [luz-clara
 
 </details>
 
-<!--
-CÓMO USAR ESTE BLOQUE (Clase 04)
-1. Abra el README.md de la carpeta principal del repositorio
-   (Mod5_PrograWeb_EntornoCliente-Nombre/README.md). Es el único README.
-2. Busque la sección «📝 Respuestas de las prácticas».
-3. Busque el aviso «📌 AQUÍ SE PEGAN LOS BLOQUES NUEVOS».
-   Si no lo tiene, ubíquese debajo del último </details> de esa sección,
-   antes de la línea --- que la cierra.
-4. Pegue ARRIBA de ese aviso todo lo que sigue a este comentario:
-   desde <details> hasta </details>. El aviso queda debajo, listo para la próxima clase.
-5. Deje una línea en blanco antes y después del bloque.
-6. Revise con Ctrl+Shift+V que las tablas se vean bien y guarde.
--->
-
 <details>
 <summary>▼<b>Clase 04 · 13/11/2026 · Variables, tipos y operadores</b></summary>
 
@@ -512,10 +498,40 @@ CÓMO USAR ESTE BLOQUE (Clase 04)
 
 | Indicador                                                 | Sí  | Aún no |
 | --------------------------------------------------------- | --- | ------ |
-| Uso const si el valor no cambia y let si cambia.          | x   |        |
-| Reconozco cadenas, números, booleanos y null.             | x   |        |
-| Calculo con operadores en lugar de escribir el resultado. | x   |        |
-| Sé que prompt devuelve texto y lo convierto con Number.   | x   |        |
+| Uso const si el valor no cambia y let si cambia.          | ✅  |        |
+| Reconozco cadenas, números, booleanos y null.             | ✅  |        |
+| Calculo con operadores en lugar de escribir el resultado. | ✅  |        |
+| Sé que prompt devuelve texto y lo convierto con Number.   | ✅  |        |
+
+</details>
+
+<details>
+<summary>▼<b>Clase 05 · 16/11/2026 · Números, textos, fechas y conversión</b></summary>
+
+**Predicciones**
+
+| #   | Expresión                         | Mi predicción | Lo que mostró la consola |
+| --- | --------------------------------- | ------------- | ------------------------ |
+| 1   | `Math.round(2.5)`                 |               |                          |
+| 2   | `Math.floor(9.99)`                |               |                          |
+| 3   | `"Luz".length`                    |               |                          |
+| 4   | `"casa".toUpperCase()`            |               |                          |
+| 5   | `parseInt("12.9 horas")`          |               |                          |
+| 6   | `Number("doce")`                  |               |                          |
+| 7   | `(3.14159).toFixed(2)`            |               |                          |
+| 8   | `typeof (10).toString()`          |               |                          |
+| 9   | `new Date(2026, 0, 1).getMonth()` |               |                          |
+| 10  | <code>`2 + 3 = ${2 + 3}`</code>   |               |                          |
+
+**Autoevaluación**
+
+| Indicador                                               | Sí  | Aún no |
+| ------------------------------------------------------- | --- | ------ |
+| Uso métodos de Math (round, floor, ceil).               |     |        |
+| Limpio y transformo textos (trim, toUpperCase, length). |     |        |
+| Creo fechas recordando que los meses empiezan en 0.     |     |        |
+| Muestro montos en colones con Intl.                     |     |        |
+| Elijo entre Number, parseInt y parseFloat.              |     |        |
 
 </details>
 
