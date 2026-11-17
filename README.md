@@ -101,8 +101,8 @@ Mod5_PrograWeb_EntornoCliente-Nombre/
         <tr>
             <td align="center">S05</td>
             <td>Números, textos, fechas y conversión de datos</td>
-            <td align="left">(Completar al terminar la sesión)</td>
-            <td align="center"><a href="UA1/S05/" target="_blank" rel="noopener">Ver</a></td>
+            <td align="left">Aprendí a convertir datos, utilizando: parseInt,parseFloat;el uso de plantillas ${}, formatear con Intl y formatear fechas</td>
+            <td align="center"><a href="UA1/S05/pago/js/vuelto.js" target="_blank" rel="noopener">Ver</a></td>
             <td align="center"><a href="UA1/S05/capturas/S05_autonoma_casa-tomillo.png" target="_blank" rel="noopener">Ver</a></td>
         </tr>
         <tr>
