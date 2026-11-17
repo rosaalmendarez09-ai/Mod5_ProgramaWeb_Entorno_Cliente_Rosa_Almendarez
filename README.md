@@ -456,23 +456,23 @@ Archivos: [horario/js/horarios.js](UA1/S03/horario/js/horarios.js) · [luz-clara
 
 **Reto MVC**
 
-| Elemento | Componente | Justificación |
-| -------- | ---------- | ------------- |
-| 1        |            |               |
-| 2        |            |               |
-| 3        |            |               |
-| 4        |            |               |
-| 5        |            |               |
-| 6        |            |               |
+| Elemento | Componente  | Justificación |
+| -------- | ----------- | ------------- |
+| 1        | Modelo      | Guarda datos  |
+| 2        | Vista       | Estilos       |
+| 3        | Controlador | Recibe click  |
+| 4        | Modelo      | Calcula       |
+| 5        | Vista       | Muestra       |
+| 6        | Controlador | Coordina      |
 
 **Autoevaluación**
 
 | Indicador                                                       | Sí  | Aún no |
 | --------------------------------------------------------------- | --- | ------ |
-| Enlazo un archivo .js al final del body o en el head con defer. |     |        |
-| Uso comentarios de línea y de bloque.                           |     |        |
-| Uso \n, \t, \", \\ y \u en textos.                              |     |        |
-| Leo el tipo de error, el mensaje y la línea en la consola.      |     |        |
+| Enlazo un archivo .js al final del body o en el head con defer. | ✅  |        |
+| Uso comentarios de línea y de bloque.                           | ✅  |        |
+| Uso \n, \t, \", \\ y \u en textos.                              | ✅  |        |
+| Leo el tipo de error, el mensaje y la línea en la consola.      | ✅  |        |
 
 </details>
 
