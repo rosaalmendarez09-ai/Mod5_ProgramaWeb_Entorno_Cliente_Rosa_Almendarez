@@ -447,12 +447,12 @@ Archivos: [horario/js/horarios.js](UA1/S03/horario/js/horarios.js) · [luz-clara
 
 **Cacería de errores**
 
-| #   | Mensaje de la consola | Archivo:línea | Corrección |
-| --- | --------------------- | ------------- | ---------- |
-| 1   |                       |               |            |
-| 2   |                       |               |            |
-| 3   |                       |               |            |
-| 4   |                       |               |            |
+| #   | Mensaje de la consola                                                    | Archivo:línea                            | Corrección                                |
+| --- | ------------------------------------------------------------------------ | ---------------------------------------- | ----------------------------------------- |
+| 1   | GET http://127.0.0.1:5500/js/horario.js net::ERR_ABORTED 404 (Not Found) | horario.js                               | horarios.js con s                         |
+| 2   | SyntaxError: Invalid or unexpected token                                 | ("Mar a sáb:\t10:00 a. m. a 7:00 p. m.); | ("Mar a sáb:\t10:00 a. m. a 7:00 p. m."); |
+| 3   | ReferenceError: ... is not defined                                       | Console.log("Domingo:\tcerrado");        | console.log en minuscula todo             |
+| 4   | No pasa nada pero el codigo debe llevarlas                               | console.log("Lunes:\tcerrado")           | console.log("Lunes:\tcerrado");           |
 
 **Reto MVC**
 
