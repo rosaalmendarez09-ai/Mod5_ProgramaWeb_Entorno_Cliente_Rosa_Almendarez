@@ -539,9 +539,16 @@ Archivos: [horario/js/horarios.js](UA1/S03/horario/js/horarios.js) · [luz-clara
 <summary>▼<b>Clase 06 · 18/11/2026 · Decisiones y depuración</b></summary>
 **Ejercicio 1 · Pruebas de cupos.js**
 | Prueba | Mensajes que mostró la consola | --- |---|---|
-| cupos = 6 | |
-| cupos = 2 | |
-| cupos = 0 | |
+| cupos = 6 | ¡Hay cupos disponibles
+cupos.js:16 Quedan 6 cupos
+cupos.js:20 No necesita experiencia|
+| cupos = 2 | cupos.js:10 ¡Últimos cupos!
+cupos.js:16 Quedan 2 cupos
+cupos.js:20 No necesita experiencia
+﻿|
+| cupos = 0 |cupos.js:8 Taller lleno
+cupos.js:16 Quedan 0 cupos
+cupos.js:20 No necesita experiencia |
 
 | nivel = "Intermedio" | |
 **Ejercicio 3 · Cacería con DevTools**
