@@ -537,20 +537,29 @@ Archivos: [horario/js/horarios.js](UA1/S03/horario/js/horarios.js) · [luz-clara
 
 <details>
 <summary>▼<b>Clase 06 · 18/11/2026 · Decisiones y depuración</b></summary>
-**Ejercicio 1 · Pruebas de cupos.js**
-| Prueba | Mensajes que mostró la consola | --- |---|---|
-| cupos = 6 | ¡Hay cupos disponibles
-cupos.js:16 Quedan 6 cupos
-cupos.js:20 No necesita experiencia|
-| cupos = 2 | cupos.js:10 ¡Últimos cupos!
-cupos.js:16 Quedan 2 cupos
-cupos.js:20 No necesita experiencia
-﻿|
-| cupos = 0 |cupos.js:8 Taller lleno
-cupos.js:16 Quedan 0 cupos
-cupos.js:20 No necesita experiencia |
 
-| nivel = "Intermedio" | |
+**Ejercicio 1 · Pruebas de cupos.js**
+
+| Prueba               | Mensajes que mostró la consola                                   |
+| -------------------- | ---------------------------------------------------------------- |
+| cupos = 6            | Hay cupos disponibles; Quedan 6 cupos; No necesita experiencia   |
+| cupos = 2            | ¡Últimos cupos!; Quedan 2 cupos; No necesita experiencia         |
+| cupos = 0            | Taller lleno; Quedan 0 cupos; No necesita experiencia            |
+| nivel = "Intermedio" | Hay cupos disponibles; Quedan 6 cupos; Requiere el nivel inicial |
+
+Cada mensaje aparece en una línea distinta. Prueba adicional: con 1 aparece «Queda 1 cupo».
+
+**Ejercicio 2 · Horarios**
+
+| Entrada  | Resultado esperado                         |
+| -------- | ------------------------------------------ |
+| Sábado   | El sábado abre de 10:00 a. m. a 7:00 p. m. |
+| lunes    | El lunes está cerrado                      |
+| Cancelar | No se indicó un día.                       |
+
+Siempre se muestra -> (Casa Tomillo · Barrio Amón) al final.
+El default sigue el enunciado
+
 **Ejercicio 3 · Cacería con DevTools**
 | Pregunta | Respuesta |
 |---|---|
