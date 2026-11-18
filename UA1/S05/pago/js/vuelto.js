@@ -15,7 +15,7 @@
     Pagó: 220000.50
     Vuelto: 10000.50*/
 
-// Funcion formato CR y colones: se usa para mostrar
+// Método formato CR y colones: se usa para mostrar
 const formatoCR = new Intl.NumberFormat("es-CR", {
   style: "currency",
   currency: "CRC",
@@ -25,17 +25,17 @@ const formatoCR = new Intl.NumberFormat("es-CR", {
 const TOTAL_PERSONA = 105000;
 
 // Pedir datos
-const pago = prompt("¿Con cuánto paga?");
-const cuanto = Number(pago); //convertir entrada a número
+let pago = prompt("¿Con cuánto paga?");
+let cuanto = Number(pago); //convertir entrada a número
 
-const cuantas = prompt("¿Cuántas personas se inscriben?,(# personas)");
-const personas = parseInt(cuantas, 10); //lee las personas y el 10 hace que sea en base decimal
+let cuantas = prompt("¿Cuántas personas se inscriben?,(# personas)");
+let personas = parseInt(cuantas, 10); //lee las personas y el 10 hace que sea en base decimal
 
 // Calcular: 105000 * 2 = 210 000
-const pagar = TOTAL_PERSONA * personas;
+let pagar = TOTAL_PERSONA * personas;
 
 // Calcula: 220000.50 - 210000 = 10000.50
-const vuelto = (cuanto - pagar).toFixed(2);
+let vuelto = (cuanto - pagar).toFixed(2);
 
 // Salidas
 console.log(
