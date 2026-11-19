@@ -110,7 +110,9 @@ Mod5_PrograWeb_EntornoCliente-Nombre/
             <td>Decisiones y depuración en el navegador</td>
             <td align="left">(Completar al terminar la sesión)</td>
             <td align="center"><a href="UA1/S06/" target="_blank" rel="noopener">Ver</a></td>
-            <td align="center"><a href="UA1/S06/capturas/" target="_blank" rel="noopener">Ver</a></td>
+            <td align="center"><a href="UA1/S06/capturas/" target="_blank" rel="noopener">Ver</a><br>
+            <a href="UA1/S06/capturas/" target="_blank" rel="noopener">Ver</a><br>
+            <a href="UA1/S06/capturas/" target="_blank" rel="noopener">Ver</a></td>
         </tr>
         <tr>
             <td align="center">S07</td>
@@ -563,18 +565,19 @@ El default sigue el enunciado
 **Ejercicio 3 · Cacería con DevTools**
 | Pregunta | Respuesta |
 |---|---|
-| ¿En qué línea puso el punto de interrupción? | |
-| ¿Qué valor tenía descuento al detenerse? | |
-| ¿Cuál era la causa del error? | |
-| ¿Cómo lo corrigió? | |
+| ¿En qué línea puso el punto de interrupción? | En el punto 4 |
+| ¿Qué valor tenía descuento al detenerse? | 5 |
+| ¿Cuál era la causa del error? | La 1er condicion monto >= 50000 por lo cual entraba en el primer if y daba 5%, no llegaba a la segunda condición|
+| ¿Cómo lo corrigió? |(monto <= 50000)|
+
 **Autoevaluación**
 | Indicador | Sí | Aún no |
 |---|---|---|
-| Escribo if / else if / else con las condiciones en el orden correcto. | | |
-| Uso el ternario para elegir entre dos valores. | | |
-| Escribo switch con break y default. | | |
-| Pongo un punto de interrupción y avanzo con F10. | | |
-| Uso try / catch para que el programa no se detenga. | | |
+| Escribo if / else if / else con las condiciones en el orden correcto. | ✅ | |
+| Uso el ternario para elegir entre dos valores. | ✅ | |
+| Escribo switch con break y default. | ✅ | |
+| Pongo un punto de interrupción y avanzo con F10. | | ✅ |
+| Uso try / catch para que el programa no se detenga. | ✅ | |
 
 </details>
 
