@@ -14,7 +14,7 @@ if (monto >= 100000) {
 }
 
 const total = monto - (monto * descuento) / 100; //calcula el descuento segun el monto
-
+debugger;
 console.log(`Descuento: ${descuento} %`); //muestra el descuento
 console.log(`Total: ${total}`); //muestra el total a pagar
 console.log(total > 90000 ? "Pago en dos tractos" : "Pago de contado"); //Indica si el monto a pagar es mayor a 90000 el pago es en dos tractos de lo contrario el pago seria de contado
