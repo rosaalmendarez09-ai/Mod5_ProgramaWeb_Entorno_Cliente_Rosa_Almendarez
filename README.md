@@ -74,29 +74,29 @@ Mod5_PrograWeb_EntornoCliente-Nombre/
             <td align="center">S01</td>
             <td>Bienvenida, encuadre y diagnóstico</td>
             <td align="left">Aprendi sobre el tipado de JavaScript, que se ejecuta en el navegador y que se utiliza para la creacion de aplicaciones.</td>
-            <td align="center"><a href="UA1/S01/" target="_blank" rel="noopener">Ver</a></td>
+            <td align="center"><a href="UA1/S01/S01_Cuadro_comparativo_Rosa_Almendarez.docx" target="_blank" rel="noopener">Ver</a></td>
             <td align="center"><a href="UA1/S01/capturas/Temas_UA1.png" target="_blank" rel="noopener">Ver</a></td>
         </tr>
         <tr>
             <td align="center">S02</td>
             <td>Entorno de trabajo, MVC y JavaScript</td>
             <td align="left">Aprendí como instalar y preparar el entorno de trabajo de JavaScript, MVC, y detectar errores que se muestran en consola</td>
-            <td align="center"><a href="UA1/S02/Prueba_Entorno/app.js" target="_blank" rel="noopener">Ver</a></td>
+            <td align="center"><a href="UA1/S02/Prueba_Entorno/js/app.js" target="_blank" rel="noopener">Ver</a></td>
             <td align="center"><a href="UA1/S02/capturas/Pueba_Entorno.png" target="_blank" rel="noopener">Ver</a></td>
         </tr>
         <tr>
             <td align="center">S03</td>
             <td>Entorno en el laboratorio y mi primer script</td>
             <td align="left">Aprendí como reconocer MVC y enlazar JavaScript a mis documentos .html y uso de defer</td>
-            <td align="center"><a href="Casa_Tomillo/js/talleres.js" target="_blank" rel="noopener">Ver</a></td>
-            <td align="center"><a href="UA1/S03/capturas/S03Talleres.png" target="_blank" rel="noopener">Ver</a></td>
+            <td align="center"><a href="Casa-tomillo/js/talleres.js" target="_blank" rel="noopener">Ver</a></td>
+            <td align="center"><a href="UA1/S03/capturas/S03Talleres.png" target="_blank" rel="noopener">Ver</a></td><br><a href="UA1/S03/capturas/ClaseS03_12Noviembre.png" target="_blank" rel="noopener">Ver</a></td>
         </tr>
         <tr>
             <td align="center">S04</td>
             <td>Variables, constantes, tipos y operadores</td>
             <td align="left">Aprendi el uso de const, let, tipos y transformar una lectura de prompt a Number.</td>
             <td align="center"><a href="UA1/S04/presupuesto/js/presupuesto.js" target="_blank" rel="noopener">Ver</a></td>
-            <td align="center"><a href="UA1/S04/capturas/S04_autonoma_presupuesto.png" target="_blank" rel="noopener">Ver</a></td>
+            <td align="center"><a href="UA1/S04/capturas/S04_autonoma_presupuesto.png" target="_blank" rel="noopener">Ver</a></td><br><a href="UA1/S04/capturas/S04_autonoma_casa-tomillo.png" target="_blank" rel="noopener">Ver</a></td>
         </tr>
         <tr>
             <td align="center">S05</td>
@@ -110,9 +110,8 @@ Mod5_PrograWeb_EntornoCliente-Nombre/
             <td>Decisiones y depuración en el navegador</td>
             <td align="left">(Completar al terminar la sesión)</td>
             <td align="center"><a href="UA1/S06/" target="_blank" rel="noopener">Ver</a></td>
-            <td align="center"><a href="UA1/S06/capturas/" target="_blank" rel="noopener">Ver</a><br>
-            <a href="UA1/S06/capturas/" target="_blank" rel="noopener">Ver</a><br>
-            <a href="UA1/S06/capturas/" target="_blank" rel="noopener">Ver</a></td>
+            <td align="center"><a href="UA1/S06/capturas/S06_autonoma_horario.png" target="_blank" rel="noopener">Ver</a><br>
+            <a href="UA1/S06/capturas/S06_guiada_nombre.png" target="_blank" rel="noopener">Ver</a><br>
         </tr>
         <tr>
             <td align="center">S07</td>
@@ -586,14 +585,14 @@ El default sigue el enunciado
 
 **¿Cuántas vueltas?**
 
-| #   | Ciclo                                   | Mi predicción | Comprobado |
-| --- | --------------------------------------- | ------------- | ---------- |
-| 1   | `for (let i = 0; i < 5; i++)`           |               |            |
-| 2   | `for (let i = 1; i <= 5; i++)`          |               |            |
-| 3   | `for (let i = 0; i <= 5; i++)`          |               |            |
-| 4   | `let n = 10; while (n > 0) { n -= 3; }` |               |            |
-| 5   | `let n = 0; do { n++; } while (n < 0);` |               |            |
-| 6   | `for (let i = 10; i > 0; i -= 2)`       |               |            |
+| #   | Ciclo                                   | Mi predicción    | Comprobado |
+| --- | --------------------------------------- | ---------------- | ---------- |
+| 1   | `for (let i = 0; i < 5; i++)`           | 0 - 4, vueltas   | correcto   |
+| 2   | `for (let i = 1; i <= 5; i++)`          | 1 - 5,5 vueltas  | correcto   |
+| 3   | `for (let i = 0; i <= 5; i++)`          | 0 - 5,6 vueltas  | correcto   |
+| 4   | `let n = 10; while (n > 0) { n -= 3; }` | 4 vueltas,n = -2 | correcto   |
+| 5   | `let n = 0; do { n++; } while (n < 0);` | 1 vuelta,n = 1   | correcto   |
+| 6   | `for (let i = 10; i > 0; i -= 2)`       | 5 vueltas,i = 0  | correcto   |
 
 **Autoevaluación**
 
@@ -602,9 +601,9 @@ El default sigue el enunciado
 | Elijo entre for, while y do while.                  |     |        |
 | Uso break y continue dentro de un ciclo.            |     |        |
 | Creo un vector y uso length, push, pop y join.      |     |        |
-| Recorro un vector con for y con for...of.           |     |        |
+| Recorro un vector con for y con for...of.           | ✅  |        |
 | Leo una matriz con [fila][columna].                 |     |        |
-| Leo los datos de un vector de objetos con el punto. |     |        |
+| Leo los datos de un vector de objetos con el punto. | ✅  |        |
 
 </details>
 

@@ -36,7 +36,9 @@ for (const t of talleres) {
     masCaro = t;
   }
 }
+
 const promedio = suma / talleres.length; //saca el promedio
+
 console.log(`Talleres: ${talleres.length}`); //Muestra cantidad de talleres
 console.log(`Promedio: ${formatoCR.format(promedio)}`); //Muestra promedio
 console.log(`Más de ${formatoCR.format(80000)}: ${caros}`); //cuantos cuestan mas de 80000
