@@ -116,8 +116,8 @@ Mod5_PrograWeb_EntornoCliente-Nombre/
             <td align="center">S07</td>
             <td>Repeticiones, vectores y matrices</td>
             <td align="left">Trabajamos Ciclos: for, while, do while. Vectores y matrices</td>
-            <td align="center"><a href="UA1/S07/" target="_blank" rel="noopener">Ver</a></td>
-            <td align="center"><a href="UA1/S07/capturas/" target="_blank" rel="noopener">Ver</a></td>
+            <td align="center"><a href="casa-tomillo/js/catalogo.js" target="_blank" rel="noopener">Ver</a></td>
+            <td align="center"><a href="UA1/S07/capturas/S07_autonoma_casa-tomillo.png" target="_blank" rel="noopener">Ver</a><br><a href="UA1/S07/capturas/S07_autonoma_semana.png" target="_blank" rel="noopener">Ver</a><br><a href="UA1/S07/capturas/S07_autonoma_grupos.png" target="_blank" rel="noopener">Ver</a></td>
         </tr>
         <tr>
             <td align="center">S08</td>
