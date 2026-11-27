@@ -88,42 +88,41 @@ Mod5_PrograWeb_EntornoCliente-Nombre/
             <td align="center">S03</td>
             <td>Entorno en el laboratorio y mi primer script</td>
             <td align="left">Aprendí como reconocer MVC y enlazar JavaScript a mis documentos .html y uso de defer</td>
-            <td align="center"><a href="Casa-tomillo/js/talleres.js" target="_blank" rel="noopener">Ver</a></td>
-            <td align="center"><a href="UA1/S03/capturas/S03Talleres.png" target="_blank" rel="noopener">Ver</a></td><br><a href="UA1/S03/capturas/ClaseS03_12Noviembre.png" target="_blank" rel="noopener">Ver</a></td>
+            <td align="center"><a href="casa-tomillo/js/talleres.js" target="_blank" rel="noopener">Ver</a></td>
+            <td align="center"><a href="UA1/S03/capturas/S03Talleres.png" target="_blank" rel="noopener">Ver</a><br><a href="UA1/S03/capturas/S03horarios.png" target="_blank" rel="noopener">Ver</a></td>
         </tr>
         <tr>
             <td align="center">S04</td>
             <td>Variables, constantes, tipos y operadores</td>
             <td align="left">Aprendi el uso de const, let, tipos y transformar una lectura de prompt a Number.</td>
             <td align="center"><a href="UA1/S04/presupuesto/js/presupuesto.js" target="_blank" rel="noopener">Ver</a></td>
-            <td align="center"><a href="UA1/S04/capturas/S04_autonoma_presupuesto.png" target="_blank" rel="noopener">Ver</a></td><br><a href="UA1/S04/capturas/S04_autonoma_casa-tomillo.png" target="_blank" rel="noopener">Ver</a></td>
+            <td align="center"><a href="UA1/S04/capturas/S04_autonoma_presupuesto.png" target="_blank" rel="noopener">Ver</a><br><a href="UA1/S04/capturas/S04_autonoma_casa-tomillo.png" target="_blank" rel="noopener">Ver</a></td>
         </tr>
         <tr>
             <td align="center">S05</td>
             <td>Números, textos, fechas y conversión de datos</td>
             <td align="left">Aprendí a convertir datos, utilizando: parseInt,parseFloat;el uso de plantillas ${}, formatear con Intl y formatear fechas</td>
             <td align="center"><a href="UA1/S05/pago/js/vuelto.js" target="_blank" rel="noopener">Ver</a></td>
-            <td align="center"><a href="UA1/S05/capturas/S05_autonoma_casa-tomillo.png" target="_blank" rel="noopener">Ver</a></td>
+            <td align="center"><a href="UA1/S05/capturas/S05_autonoma_vuelto.png" target="_blank" rel="noopener">Ver</a><br><a href="UA1/S05/capturas/S05_autonoma_casa-tomillo.png" target="_blank" rel="noopener">Ver</a></td>
         </tr>
         <tr>
             <td align="center">S06</td>
             <td>Decisiones y depuración en el navegador</td>
-            <td align="left">(Completar al terminar la sesión)</td>
-            <td align="center"><a href="UA1/S06/" target="_blank" rel="noopener">Ver</a></td>
-            <td align="center"><a href="UA1/S06/capturas/S06_autonoma_horario.png" target="_blank" rel="noopener">Ver</a><br>
-            <a href="UA1/S06/capturas/S06_guiada_nombre.png" target="_blank" rel="noopener">Ver</a><br>
+            <td align="left">Trabajamos if, else if, else, operador ternario,switch(break) y depurar con punto de interrupción además el uso de try, catch y finally</td>
+            <td align="center"><a href="casa-tomillo/js/cupos.js" target="_blank" rel="noopener">Ver</a></td>
+            <td align="center"><a href="UA1/S06/capturas/S06_autonoma_casa_tomillo.png" target="_blank" rel="noopener">Ver</a><br><a href="UA1/S06/capturas/S06_autonoma_horario.png" target="_blank" rel="noopener">Ver</a><br><a href="UA1/S06/capturas/S06_autonoma_depurar.png" target="_blank" rel="noopener">Ver</a></td>
         </tr>
         <tr>
             <td align="center">S07</td>
             <td>Repeticiones, vectores y matrices</td>
-            <td align="left">(Completar al terminar la sesión)</td>
+            <td align="left">Trabajamos Ciclos: for, while, do while. Vectores y matrices</td>
             <td align="center"><a href="UA1/S07/" target="_blank" rel="noopener">Ver</a></td>
             <td align="center"><a href="UA1/S07/capturas/" target="_blank" rel="noopener">Ver</a></td>
         </tr>
         <tr>
             <td align="center">S08</td>
             <td>Funciones</td>
-            <td align="left">(Completar al terminar la sesión)</td>
+            <td align="left">Trabajamos Declaración, expresión y flecha; parámetros, return y validación; variables globales y locales; callbacks con forEach, map y filter; closure</td>
             <td align="center"><a href="UA1/S08/" target="_blank" rel="noopener">Ver</a></td>
             <td align="center"><a href="UA1/S08/capturas/" target="_blank" rel="noopener">Ver</a></td>
         </tr>
@@ -156,7 +155,7 @@ Mod5_PrograWeb_EntornoCliente-Nombre/
         <tr>
             <td align="center">S10</td>
             <td>El DOM y sus selectores</td>
-            <td align="left">(Completar al terminar la sesión)</td>
+            <td align="left">Trabajamos el árbol de nodos:metodos de document(un nodo o null), elements y all(colección, NodeList); id, class, #, name, query. Selectores(objetos del DOM)</td>
             <td align="center"><a href="UA2/S10/" target="_blank" rel="noopener">Ver</a></td>
             <td align="center"><a href="UA2/S10/capturas/" target="_blank" rel="noopener">Ver</a></td>
         </tr>
